@@ -1,7 +1,7 @@
 package main
 import "fmt"
-import "github.com/pythoner2012/string"
+import "github.com/pythoner2012/stringutil"
 func main(){
-	  fmt.Println(string.Reverse("hello, world"))
+	  fmt.Println(stringutil.Reverse("hello, world"))
           fmt.Println("true&&false=",true&&false)
 }
